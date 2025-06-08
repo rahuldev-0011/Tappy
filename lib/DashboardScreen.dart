@@ -347,7 +347,7 @@ class _SlideToDeleteListState extends State<SlideToDeleteList> {
               await widget.reload(); // Refresh after return
             },
             child: Container(
-              margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 2),
+              margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
                 color: Colors.white,

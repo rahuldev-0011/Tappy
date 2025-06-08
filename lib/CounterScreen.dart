@@ -224,7 +224,7 @@ class _CounterScreenState extends State<CounterScreen> {
             color: _gradientColors
           ),
           child: Scaffold(
-            backgroundColor: Colors.transparent,
+            backgroundColor: const Color(0xFFF3F3F3),
             appBar: AppBar(
               actions: [
                 IconButton(
